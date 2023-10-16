@@ -92,14 +92,14 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
 #es-sanofi.es-sanofi .es-benefits__pic {
   background-color: #52338c;
   border-radius: 15px;
-  height: 130px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #es-sanofi.es-sanofi .es-benefits__single {
-  width: 130px;
+  width: 140px;
 }
 
 #es-sanofi.es-sanofi .es-benefits__txt {
@@ -133,7 +133,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
 }
 
 #es-sanofi.es-sanofi .es-benefits__img {
-  max-width: 60%;
+  max-width: 50%;
   display: block;
   margin: 0 auto;
   -webkit-transition: all 0.3s;
@@ -279,7 +279,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  width: 99px;
+  width: 77px;
 }
 
 #es-sanofi.es-sanofi .es-reasons__content {
@@ -294,14 +294,14 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
 #es-sanofi.es-sanofi .es-reasons__pic {
   background-color: #6a55a5;
   border-radius: 15px;
-  height: 130px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #es-sanofi.es-sanofi .es-reasons__single {
-  width: 130px;
+  width: 150px;
 }
 
 #es-sanofi.es-sanofi .es-reasons__txt {
@@ -539,8 +539,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   padding: 0;
   line-height: inherit;
   color: #52338c;
-  font-family: inherit;
-  font-weight: 700;
+  font-family: "MontserratBold", sans-serif;
   font-size: 13px;
   text-align: center;
   white-space: nowrap;
@@ -738,6 +737,10 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   margin: 0 auto;
 }
 
+#es-sanofi.es-sanofi .es-wrapper {
+  padding: 0 16px;
+}
+
 @media (min-width: 404px) {
   #es-sanofi.es-sanofi .es-cross__title {
     max-width: 404px;
@@ -760,16 +763,16 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
     left: 11%;
   }
   #es-sanofi.es-sanofi .es-benefits__pic {
-    height: 150px;
+    height: 170px;
   }
   #es-sanofi.es-sanofi .es-benefits__single {
-    width: 150px;
+    width: 170px;
   }
   #es-sanofi.es-sanofi .es-reasons__pic {
-    height: 150px;
+    height: 170px;
   }
   #es-sanofi.es-sanofi .es-reasons__single {
-    width: 150px;
+    width: 170px;
   }
 }
 
@@ -895,9 +898,6 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
     font-size: 20px;
     width: 150px;
   }
-  #es-sanofi.es-sanofi .es-cross__txt {
-    font-size: 16px;
-  }
 }
 
 @media (min-width: 888px) {
@@ -1008,6 +1008,9 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   width: 47%;
 }
 #es-sanofi.es-sanofi .es-cross__signature {
+  font-size: 16px;
+}
+#es-sanofi.es-sanofi .es-cross__txt {
   font-size: 16px;
 }
 #es-sanofi.es-sanofi .es-footer__claims {
