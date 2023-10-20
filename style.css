@@ -350,7 +350,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   font-family: "MontserratBold", sans-serif;
   font-size: 16px;
   position: absolute;
-  bottom: 33%;
+  top: 40%;
   left: 11%;
 }
 
@@ -759,8 +759,6 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 18px;
-    bottom: 36%;
-    left: 11%;
   }
   #es-sanofi.es-sanofi .es-benefits__pic {
     height: 170px;
@@ -845,8 +843,8 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 32px;
-    bottom: 38%;
     left: 24%;
+    top: 37%;
   }
   #es-sanofi.es-sanofi .es-package__title {
     font-size: 32px;
@@ -947,7 +945,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   padding-right: 325px;
 }
 #es-sanofi.es-sanofi .es-treatment__txt--2::before {
-  content: url(./img/dot.png);
+  content: url(./static/img/dot.png);
   position: absolute;
   top: 18px;
   left: 18px;
