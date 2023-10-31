@@ -204,22 +204,32 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   text-align: center;
   margin-inline: auto;
 }
+
 #es-sanofi.es-sanofi .es-treatment__txt {
   margin: 0;
-  padding: 0 10px;
+  padding: 10px;
   line-height: inherit;
   color: #52338c;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 16px;
-  margin-bottom: 12px;
-  text-align: center;
-  margin-inline: auto;
-  max-width: 415px;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 48px;
+  position: relative;
 }
 
-#es-sanofi.es-sanofi .es-treatment__txt--desktop {
-  display: none;
+#es-sanofi.es-sanofi .es-treatment__txt--1 {
+  background-color: #d32833;
+  color: #fff;
+}
+
+#es-sanofi.es-sanofi .es-treatment__txt--2::before {
+  content: url(./static/img/dot.png);
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  width: 30px;
+  height: 30px;
 }
 
 #es-sanofi.es-sanofi .es-treatment__txt--span {
@@ -228,7 +238,10 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
 }
 
 #es-sanofi.es-sanofi .es-treatment__content {
-  background-color: #d32833;
+  background: url(./static/img/bg-1-mobile.png);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 5;
 }
 
 #es-sanofi.es-sanofi .es-treatment__subtitle {
@@ -236,11 +249,10 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   padding: 20px 10px;
   line-height: inherit;
   color: #fff;
-  font-family: "MontserratBold", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  margin-inline: auto;
-  max-width: 385px;
+  font-family: "MontserratRegular", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 48px;
 }
 
 #es-sanofi.es-sanofi .es-treatment__img {
@@ -843,8 +855,8 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 32px;
-    left: 24%;
     top: 37%;
+    left: 24%;
   }
   #es-sanofi.es-sanofi .es-package__title {
     font-size: 32px;
@@ -922,45 +934,30 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
 #es-sanofi.es-sanofi .es-package__img--desktop {
   display: block;
 }
-#es-sanofi.es-sanofi .es-treatment__content {
-  background: url(./static/img/bg-1.png);
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 5;
-}
 #es-sanofi.es-sanofi .es-treatment {
   position: relative;
   min-height: 666px;
+}
+#es-sanofi.es-sanofi .es-treatment__content {
+  background: url(./static/img/bg-1.png);
+  background-repeat: no-repeat;
 }
 #es-sanofi.es-sanofi .es-treatment__txt {
   max-width: unset;
   padding: 20px 410px 20px 60px;
   font-size: 20px;
   text-align: left;
-  position: relative;
 }
 #es-sanofi.es-sanofi .es-treatment__txt--1 {
-  background-color: #d32833;
-  color: #fff;
   padding-right: 325px;
 }
 #es-sanofi.es-sanofi .es-treatment__txt--2::before {
-  content: url(./static/img/dot.png);
-  position: absolute;
   top: 18px;
   left: 18px;
-  width: 30px;
-  height: 30px;
-}
-#es-sanofi.es-sanofi .es-treatment__txt--mobile {
-  display: none;
-}
-#es-sanofi.es-sanofi .es-treatment__txt--desktop {
-  display: block;
 }
 #es-sanofi.es-sanofi .es-treatment__subtitle {
   max-width: 490px;
-  margin-left: 50px;
+  margin-left: 12px;
   font-weight: 400;
   text-align: left;
   font-size: 20px;
