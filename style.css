@@ -674,7 +674,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   line-height: inherit;
   color: #fff;
   font-family: "MontserratBold", sans-serif;
-  font-size: 13px;
+  font-size: 10px;
   background-color: #d32833;
   margin-bottom: 8px;
   border-radius: 5px;
@@ -725,7 +725,7 @@ src: url(./static/fonts/Montserrat-Bold.ttf) format("truetype");
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #es-sanofi.es-sanofi .es-footer__logo {
